@@ -1,0 +1,147 @@
+/* 작업순서
+1 기본해상도 - 960px
+2 배치
+3 font - family, size
+*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.08em;
+    line-height: 1.1em;
+}
+
+.noto-serif {
+    font-family: "Noto Serif KR", serif;
+    /* padding: 10px 0; */
+}
+
+h1 {
+    line-height: 1.3em;
+    font-weight: 800;
+    font-size: 1.22em;
+}
+.wrap-header {
+    width: 100%;
+    background-color: antiquewhite;
+    /* padding-bottom: 10px; */
+
+}
+header {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 160px;
+    position: relative;
+}
+
+nav.bnb, .logo {
+    clear: both;
+}
+
+header .logo {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+}
+
+header nav.tnb {
+    position: absolute;
+    right: 0;
+}
+
+header nav.bnb {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.wrap-main {
+    width: 960px;
+    margin: 0 auto;
+}
+section {
+    float: left;
+    width: 750px;
+
+    margin-right: 10px;
+}
+article {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+aside{
+    float: right;
+    width: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.wrap-footer {
+    clear: both;
+    background-color: bisque;
+    /* position: relative;
+    top: -10px; */
+}
+footer {
+    width: 960px;
+    margin: 0 auto;
+
+    padding: 10px 0;
+}
+section :nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+adress {
+    display: block;
+    font-style: italic;
+}
+
+ul > li {
+    float: left;
+    /* border: 1px solid black; */
+}
+
+ul > li > a {
+    border-color: black;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-style: solid;
+}
+
+nav.tnb > ul > li:first-child > a {
+    border-left: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px 0 0 15px;
+}
+
+nav.tnb > ul > li:last-child > a {
+    border-radius: 0 15px 15px 0;
+}
+
+nav.bnb > ul > li:last-child > a {
+    border-radius: 0 10px 10px 0;
+}
+nav.bnb > ul > li:first-child > a {
+    border-radius: 10px 0 0 10px;
+}
+nav.bnb > ul > li:first-child > a {
+    border-left: 1px;
+    border-color: black;
+    border-style: solid;
+}
+a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+a:hover {
+background-color:blue;
+color: white;
+}

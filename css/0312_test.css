@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
+}
+
+.wrap-header {
+    background-color: aquamarine;
+    /* overflow: hidden; */
+}
+
+header {
+    width: 1080px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    position: relative;
+}
+
+header h1 {
+    font-size: 3em;
+    position: relative;
+    top: 68px;
+    left: 40px;
+}
+
+header nav li {
+    float: left;
+}
+
+.t_nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.b_nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav a {
+    border-top: 1px black solid;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+    display: inline-block;
+}
+
+nav ul li:first-child a {
+    border-left: 1px black solid;
+}
+
+.t_nav li:first-child a {
+    border-radius: 15px 0 0 15px;
+}
+.t_nav li:last-child a {
+    border-radius: 0 15px 15px 0;
+}
+.b_nav li:first-child a {
+    border-radius: 7px 0 0 7px;
+}
+.b_nav li:last-child a {
+    border-radius: 0 7px 7px 0;
+}
+
+.b_nav a:hover {
+    background-color: black;
+    color: white;
+}
+.t_nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 a:hover {
+    color: gray;
+}
+
+.main {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.main section {
+}
+
+.wrap-aside {
+    width: 20%;
+    float: right;
+}
+
+.wrap-aside {
+    float: left;
+}

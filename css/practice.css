@@ -1,0 +1,15 @@
+li {
+    display: inline-block;
+    background-color: aquamarine;
+}
+
+ul {
+    width: 70%;
+    background-color: chartreuse;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    
+}
