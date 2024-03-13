@@ -97,12 +97,12 @@ adress {
     font-style: italic;
 }
 
-ul > li {
+nav ul > li {
     float: left;
     /* border: 1px solid black; */
 }
 
-ul > li > a {
+nav ul > li > a {
     border-color: black;
     border-top: 1px;
     border-bottom: 1px;
@@ -132,16 +132,54 @@ nav.bnb > ul > li:first-child > a {
     border-color: black;
     border-style: solid;
 }
-a {
+nav a {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
     color: black;
 }
 
-
-
-a:hover {
+nav a:hover {
 background-color:blue;
 color: white;
+}
+
+.tab-item > ul > li > a > div:first-child{
+    float: left;
+    width: 45px;
+    margin-right: 10px;
+}
+.tab-item > ul > li > a > div:last-child{
+    float: left;
+    width: 120px;
+}
+
+.tab-item > ul > li {
+    padding: 10px;
+    clear: both;
+}
+.tab-item > ul > li {
+    overflow: hidden;
+}
+
+input[type=radio]{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+input[type=radio]:nth-of-type(1):checked
+~ div:nth-of-type(1) {
+    display: block;
+}
+input[type=radio]:nth-of-type(1):checked
+~ div:nth-of-type(2) {
+    display: none;
+}
+input[type=radio]:nth-of-type(2):checked
+~ div:nth-of-type(1) {
+    display: none;
+}
+input[type=radio]:nth-of-type(2):checked
+~ div:nth-of-type(2) {
+    display: block;
 }
