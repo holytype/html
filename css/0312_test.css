@@ -88,16 +88,21 @@ h1 a:hover {
 .main {
     width: 1080px;
     margin: 0 auto;
+    background-color: cornflowerblue;
+    padding-top: 10px;
 }
 
 .main section {
+    background-color: yellowgreen;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .wrap-aside {
-    width: 20%;
-    float: right;
-}
-
-.wrap-aside {
-    float: left;
+    background-color: bisque;
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
