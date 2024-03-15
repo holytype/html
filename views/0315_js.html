@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("hi");
+        // window.alert("alert")
+    </script>
+</head>
+<body>
+    <h1 id="id1">JavaScript~</h1>
+    <h1 class="c2">JavaScript~</h1>
+    <h1 class="c2">JavaScript~</h1>
+    
+    <script>
+        var a8 = null;
+        console.log(typeof a8);
+        var a9 = {k1:123};
+        console.log(a9);
+
+
+        // var a3 = document.getElementById("id1");
+        // console.log(a3);
+        // var a4 = document.getElementsByClassName("c2");
+        // console.log(a4);
+        var a5 = document.getElementsByTagName("h1");
+        console.log(a5);
+        var a6 = document.querySelector(".c2");
+        console.log(a6);
+        var a7 = document.querySelectorAll(".c2");
+        console.log(a7);
+
+        var a10 = function(){
+            
+        }
+        console.log(typeof a10)
+        console.log(a10)
+        
+    </script>
+    <script>
+        document.write("hello");
+
+        document.getElementsByTagName("h1")[0].innerHTML = '<a href="#">바꿈문자1</a>';
+        document.getElementsByTagName("h1")[1].innerText = "바꿈문자2";
+    </script>
+    <script>
+        // var a1 = window.prompt();
+        // console.log(a1);
+        // document.getElementsByTagName("h1")[2].innerText = a1;
+
+        // var a2 = window.confirm("계속진행?");
+        //console.log(a2);
+    </script>
+</body>
+</html>
